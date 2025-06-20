@@ -16,7 +16,7 @@ from sklearn.preprocessing import label_binarize
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATA_DIR = os.path.join(BASE_DIR, "FabricDefectDataset", "test")
 MODEL_PATH = os.path.join(BASE_DIR, "models", "best_model.pt")
-OUTPUT_DIR = os.path.join(BASE_DIR, "report", "visuals")
+OUTPUT_DIR = os.path.join(BASE_DIR, "report")
 
 BATCH_SIZE = 32
 NUM_CLASSES = 9
