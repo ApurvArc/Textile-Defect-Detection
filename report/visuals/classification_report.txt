@@ -1,0 +1,19 @@
+Fabric Defect Classification Report
+========================================
+Accuracy: 0.9933
+
+                precision    recall  f1-score   support
+
+ broken stitch     1.0000    1.0000    1.0000        18
+   defect free     1.0000    1.0000    1.0000       251
+          hole     1.0000    0.9615    0.9804        26
+    horizontal     0.8750    1.0000    0.9333        21
+         lines     1.0000    0.9600    0.9796        25
+   needle mark     1.0000    1.0000    1.0000        17
+pinched fabric     1.0000    1.0000    1.0000        17
+         stain     1.0000    1.0000    1.0000        61
+      vertical     1.0000    0.9333    0.9655        15
+
+      accuracy                         0.9933       451
+     macro avg     0.9861    0.9839    0.9843       451
+  weighted avg     0.9942    0.9933    0.9935       451
