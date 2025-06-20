@@ -1,22 +1,20 @@
 # 🧵 Fabric Defect Detection using ResNet18
 
-A deep learning-based image classification system designed to detect and classify common defects in textile fabrics. The system uses transfer learning with ResNet18 and achieves **97.38% accuracy** across 9 fabric classes.
+A deep learning-based image classification system designed to detect and classify common defects in textile fabrics. This project uses transfer learning with ResNet18 and achieves **97.38% accuracy** across 9 fabric classes.
 
 ---
 
-## 📁 Dataset
+## 📂 Dataset
 
-The dataset consists of high-resolution textile images categorized into:
+This project uses a **combined dataset** built from two Kaggle sources:
 
-- `defect free`
-- `broken stitch`
-- `hole`
-- `horizontal`
-- `vertical`
-- `lines`
-- `needle mark`
-- `pinched fabric`
-- `stain`
+1. **[Fabric Defects Dataset](https://www.kaggle.com/datasets/nexuswho/fabric-defects-dataset)**  
+   Contributed by `nexuswho`, this dataset provides:
+   - `defect free`, `hole`, `horizontal`, `lines`, `stain`, `vertical`
+
+2. **[Multi-Class Fabric Defect Detection Dataset](https://www.kaggle.com/datasets/ziya07/multi-class-fabric-defect-detection-dataset)**  
+   Contributed by `ziya07`, this adds:
+   - `broken stitch`, `needle mark`, `pinched fabric`
 
 > **Total test images**: 2941  
 > **Model accuracy**: 97.38%
@@ -25,12 +23,12 @@ The dataset consists of high-resolution textile images categorized into:
 
 ## 🧠 Model Details
 
-- **Base Model**: ResNet18 (ImageNet weights)
+- **Base Model**: ResNet18 (ImageNet pre-trained)
 - **Framework**: PyTorch
 - **Input Size**: 224 × 224 RGB
 - **Loss Function**: Cross Entropy
 - **Optimizer**: Adam
-- **Augmentations**: Class-balanced (flip, rotate, noise, jitter, mild blur)
+- **Augmentations**: Rotation, noise, color jitter, mild blur (class-balanced)
 
 ---
 
@@ -52,26 +50,31 @@ The dataset consists of high-resolution textile images categorized into:
 
 ## 🧪 Features
 
-- Multi-class fabric defect classification
-- Balanced training via targeted augmentations
-- Visual reports (confusion matrix, ROC curves, per-class accuracy)
-- Save misclassified images for manual inspection
-- Easily extendable and modular code
+- Multi-class textile defect detection
+- Balanced training with targeted augmentation
+- Confusion matrix, ROC, per-class accuracy
+- Save misclassified images
+- Modular PyTorch codebase
 
 ---
 
 ## 🗂️ Folder Structure
 
 .
-├── FabricDefectDataset/      # Organized dataset (train/val/test)
-├── models/                   # Saved trained model (.pt file)
-├── report/                   # Evaluation reports and visualizations
+├── FabricDefectDataset/ # Structured dataset (train/val/test)
+│ ├── raw/ # Raw unorganized images
+│ ├── train/
+│ ├── val/
+│ └── test/
+├── models/ # Trained model weights (.pt)
+├── report/ # Evaluation reports & plots
 ├── src/
-│   ├── train.py              # Model training script
-│   ├── evaluate.py           # Evaluation + confusion matrix, ROC
-│   ├── predict.py            # Predict labels for new images/folders
-│   ├── process.py            # Augmentation for minority classes
-│   ├── split_dataset.py      # Stratified train/val/test split
-├── README.md                 # Project description and usage
+│ ├── train.py # Model training
+│ ├── evaluate.py # Evaluation & reporting
+│ ├── predict.py # Inference on new images
+│ ├── classify_and_sort.py # Correct/incorrect separation
+│ ├── process.py # Data augmentation
+│ ├── rename.py # Rename images class-wise
+│ └── split_dataset.py # Stratified split (train/val/test)
+├── README.md
 └── .gitattributes
-
