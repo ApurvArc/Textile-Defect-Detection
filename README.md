@@ -58,7 +58,7 @@ This project uses a **combined dataset** built from two Kaggle sources:
 
 ---
 
-📁 Folder Structure
+## 📁 Folder Structure
 
 .
 ├── FabricDefectDataset/       # Structured dataset (train/val/test)
@@ -72,10 +72,11 @@ This project uses a **combined dataset** built from two Kaggle sources:
 │   ├── train.py               # Model training
 │   ├── evaluate.py            # Evaluation & reporting
 │   ├── predict.py             # Inference on new images
-│   ├── classify_and_sort.py   # Correct/incorrect separation
 │   ├── process.py             # Data augmentation
 │   ├── rename.py              # Rename images class-wise
 │   └── split_dataset.py       # Stratified split (train/val/test)
+
 ├── README.md                  # Project documentation
-└── .gitattributes
+├── .gitattributes
+└── requirements.txt           # Python dependencies
 
