@@ -22,31 +22,31 @@ BATCH_SIZE = 32
 NUM_CLASSES = 9
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# --- Transforms ---
+# --- Transform ---
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
     transforms.Normalize([0.5]*3, [0.5]*3)
 ])
 
-# --- Load Test Set ---
+# --- Dataset & Loader ---
 test_set = datasets.ImageFolder(DATA_DIR, transform=transform)
 test_loader = DataLoader(test_set, batch_size=BATCH_SIZE, shuffle=False)
 class_names = test_set.classes
 
-# --- Save class index mapping ---
+# --- Save class names ---
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 with open(os.path.join(OUTPUT_DIR, "class_names.txt"), "w", encoding="utf-8") as f:
     f.write("\n".join(class_names))
 
-# --- Load Model ---
+# --- Load model ---
 model = models.resnet18(weights=None)
 model.fc = torch.nn.Linear(model.fc.in_features, NUM_CLASSES)
 model.load_state_dict(torch.load(MODEL_PATH, map_location=DEVICE))
 model.to(DEVICE)
 model.eval()
 
-# --- Evaluation ---
+# --- Evaluate on test set ---
 y_true = []
 y_pred = []
 y_score = []
@@ -70,10 +70,10 @@ acc = accuracy_score(y_true, y_pred)
 report = classification_report(y_true, y_pred, target_names=class_names, digits=4, output_dict=True)
 cm = confusion_matrix(y_true, y_pred)
 
-# --- Save Classification Report ---
+# --- Save report (txt and csv) ---
 with open(os.path.join(OUTPUT_DIR, "classification_report.txt"), "w", encoding="utf-8") as f:
-    f.write("Fabric Defect Classification Report\n")
-    f.write("=" * 40 + "\n")
+    f.write("Fabric Defect Classification Report (Test Set)\n")
+    f.write("=" * 45 + "\n")
     f.write(f"Accuracy: {acc:.4f}\n\n")
     f.write(classification_report(y_true, y_pred, target_names=class_names, digits=4))
 
@@ -82,7 +82,7 @@ pd.DataFrame(report).transpose().to_csv(os.path.join(OUTPUT_DIR, "classification
 # --- Confusion Matrix (Raw) ---
 plt.figure(figsize=(9, 7))
 sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=class_names, yticklabels=class_names)
-plt.title("Confusion Matrix")
+plt.title("Confusion Matrix (Test Set)")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.tight_layout()
@@ -93,7 +93,7 @@ plt.close()
 cm_norm = cm.astype("float") / cm.sum(axis=1)[:, np.newaxis]
 plt.figure(figsize=(9, 7))
 sns.heatmap(cm_norm, annot=True, fmt=".2f", cmap="YlGnBu", xticklabels=class_names, yticklabels=class_names)
-plt.title("Normalized Confusion Matrix")
+plt.title("Normalized Confusion Matrix (Test Set)")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.tight_layout()
@@ -106,13 +106,13 @@ plt.figure(figsize=(9, 6))
 sns.barplot(x=class_names, y=class_acc)
 plt.ylim(0, 1)
 plt.ylabel("Accuracy")
-plt.title("Per-Class Accuracy")
+plt.title("Per-Class Accuracy (Test Set)")
 plt.xticks(rotation=30, ha="right")
 plt.tight_layout()
 plt.savefig(os.path.join(OUTPUT_DIR, "PerClassAccuracy.png"))
 plt.close()
 
-# --- ROC Curves (One-vs-All) ---
+# --- ROC Curve (One-vs-All) ---
 y_true_bin = label_binarize(y_true, classes=np.arange(NUM_CLASSES))
 fpr = dict()
 tpr = dict()
@@ -131,7 +131,7 @@ plt.xlim([0.0, 1.0])
 plt.ylim([0.0, 1.05])
 plt.xlabel("False Positive Rate")
 plt.ylabel("True Positive Rate")
-plt.title("ROC Curves (One-vs-All)")
+plt.title("ROC Curves (Test Set)")
 plt.legend(loc="lower right", fontsize=9)
 plt.tight_layout()
 plt.savefig(os.path.join(OUTPUT_DIR, "ROC_Curves.png"))

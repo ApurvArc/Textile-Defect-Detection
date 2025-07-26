@@ -5,6 +5,8 @@ import random
 # --- Setup Relative Paths ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.join(SCRIPT_DIR, "..", "FabricDefectDataset")
+RAW_DIR = os.path.join(BASE_DIR, "raw")  # ← raw data source
+
 CLASSES = [
     'broken stitch', 'defect free', 'hole', 'horizontal',
     'lines', 'needle mark', 'pinched fabric', 'stain', 'vertical'
@@ -15,7 +17,7 @@ SPLIT_RATIOS = (0.7, 0.15, 0.15)  # train, val, test
 random.seed(42)
 
 for cls in CLASSES:
-    src_dir = os.path.join(BASE_DIR, cls)
+    src_dir = os.path.join(RAW_DIR, cls)
     if not os.path.isdir(src_dir):
         print(f"❌ Class folder not found: {src_dir}")
         continue

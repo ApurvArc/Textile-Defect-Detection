@@ -1,13 +1,14 @@
 import os
 from PIL import Image
 
-# Dataset root directory
-BASE_DIR = r"C:\Users\ARCREACTOR19\Downloads\your_project\FabricDefectDataset"
+# --- Base and Raw Paths ---
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.join(SCRIPT_DIR, "..", "FabricDefectDataset", "raw")
 
-# Supported image extensions
+# --- Allowed Image Extensions ---
 EXTS = (".jpg", ".jpeg", ".png", ".bmp")
 
-# Traverse all class folders
+# --- Rename Images in Each Class Folder ---
 for class_name in os.listdir(BASE_DIR):
     class_path = os.path.join(BASE_DIR, class_name)
     if not os.path.isdir(class_path):
@@ -26,8 +27,8 @@ for class_name in os.listdir(BASE_DIR):
         try:
             img = Image.open(old_path).convert("RGB")
             img.save(new_path, "JPEG")
-            # os.remove(old_path)  # 🔒 Disabled to preserve original
+            # os.remove(old_path)  # Uncomment to delete original files
         except Exception as e:
             print(f"❌ Failed to process {fname}: {e}")
 
-print("✅ All images renamed successfully.")
+print("✅ All images in raw/ renamed successfully.")
