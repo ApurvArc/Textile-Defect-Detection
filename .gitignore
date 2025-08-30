@@ -1,51 +1,5 @@
-# OS files
-.DS_Store
-Thumbs.db
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pkl
-*.so
-
-# Virtual environments
-.venv/
-venv/
-env/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Logs & reports
-*.log
-*.out
-*.tmp
-*.csv
-*.xlsx
-
 # Dataset - ignore raw and large data
 FabricDefectDataset/raw/
 FabricDefectDataset/train/
 FabricDefectDataset/val/
 FabricDefectDataset/test/
-
-# Model weights (can be large, better to upload manually if needed)
-models/*.pt
-models/*.pth
-
-# Plots, figures, generated evaluation outputs
-report/*.png
-report/*.jpg
-report/*.pdf
-
-# Cache
-*.cache/
-*.egg-info/
-dist/
-build/
-
-# VSCode / IDE
-.vscode/
-.idea/

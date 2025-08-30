@@ -1,0 +1,457 @@
+filename,actual_label,predicted_label
+broken_stitch_004.jpg,broken stitch,broken stitch
+broken_stitch_005.jpg,broken stitch,broken stitch
+broken_stitch_012.jpg,broken stitch,broken stitch
+broken_stitch_014.jpg,broken stitch,broken stitch
+broken_stitch_015.jpg,broken stitch,broken stitch
+broken_stitch_018.jpg,broken stitch,broken stitch
+broken_stitch_029.jpg,broken stitch,broken stitch
+broken_stitch_032.jpg,broken stitch,broken stitch
+broken_stitch_036.jpg,broken stitch,broken stitch
+broken_stitch_055.jpg,broken stitch,broken stitch
+broken_stitch_070.jpg,broken stitch,broken stitch
+broken_stitch_076.jpg,broken stitch,broken stitch
+broken_stitch_082.jpg,broken stitch,broken stitch
+broken_stitch_087.jpg,broken stitch,broken stitch
+broken_stitch_095.jpg,broken stitch,broken stitch
+broken_stitch_104.jpg,broken stitch,broken stitch
+broken_stitch_109.jpg,broken stitch,broken stitch
+broken_stitch_110.jpg,broken stitch,broken stitch
+defect_free_002.jpg,defect free,defect free
+defect_free_005.jpg,defect free,defect free
+defect_free_007.jpg,defect free,defect free
+defect_free_015.jpg,defect free,defect free
+defect_free_024.jpg,defect free,defect free
+defect_free_031.jpg,defect free,defect free
+defect_free_040.jpg,defect free,defect free
+defect_free_044.jpg,defect free,defect free
+defect_free_065.jpg,defect free,defect free
+defect_free_082.jpg,defect free,defect free
+defect_free_097.jpg,defect free,defect free
+defect_free_1002.jpg,defect free,defect free
+defect_free_1003.jpg,defect free,defect free
+defect_free_101.jpg,defect free,defect free
+defect_free_1015.jpg,defect free,defect free
+defect_free_1016.jpg,defect free,defect free
+defect_free_1017.jpg,defect free,defect free
+defect_free_1018.jpg,defect free,defect free
+defect_free_1019.jpg,defect free,defect free
+defect_free_1022.jpg,defect free,defect free
+defect_free_1028.jpg,defect free,defect free
+defect_free_1029.jpg,defect free,defect free
+defect_free_1035.jpg,defect free,defect free
+defect_free_1036.jpg,defect free,defect free
+defect_free_1037.jpg,defect free,defect free
+defect_free_1038.jpg,defect free,defect free
+defect_free_1041.jpg,defect free,defect free
+defect_free_105.jpg,defect free,defect free
+defect_free_1056.jpg,defect free,defect free
+defect_free_1059.jpg,defect free,defect free
+defect_free_1061.jpg,defect free,defect free
+defect_free_1069.jpg,defect free,defect free
+defect_free_1079.jpg,defect free,defect free
+defect_free_1083.jpg,defect free,defect free
+defect_free_1085.jpg,defect free,defect free
+defect_free_109.jpg,defect free,defect free
+defect_free_1091.jpg,defect free,defect free
+defect_free_1092.jpg,defect free,defect free
+defect_free_1107.jpg,defect free,defect free
+defect_free_1112.jpg,defect free,defect free
+defect_free_1113.jpg,defect free,defect free
+defect_free_1117.jpg,defect free,defect free
+defect_free_1118.jpg,defect free,defect free
+defect_free_1122.jpg,defect free,defect free
+defect_free_1132.jpg,defect free,defect free
+defect_free_1134.jpg,defect free,defect free
+defect_free_1143.jpg,defect free,defect free
+defect_free_1148.jpg,defect free,defect free
+defect_free_1155.jpg,defect free,defect free
+defect_free_1167.jpg,defect free,defect free
+defect_free_1169.jpg,defect free,defect free
+defect_free_1170.jpg,defect free,defect free
+defect_free_1175.jpg,defect free,defect free
+defect_free_1194.jpg,defect free,defect free
+defect_free_1198.jpg,defect free,defect free
+defect_free_1202.jpg,defect free,defect free
+defect_free_1203.jpg,defect free,defect free
+defect_free_1207.jpg,defect free,defect free
+defect_free_121.jpg,defect free,defect free
+defect_free_1216.jpg,defect free,defect free
+defect_free_1217.jpg,defect free,defect free
+defect_free_1219.jpg,defect free,defect free
+defect_free_1241.jpg,defect free,defect free
+defect_free_1250.jpg,defect free,defect free
+defect_free_1255.jpg,defect free,defect free
+defect_free_1262.jpg,defect free,defect free
+defect_free_1263.jpg,defect free,defect free
+defect_free_1266.jpg,defect free,defect free
+defect_free_128.jpg,defect free,defect free
+defect_free_1283.jpg,defect free,defect free
+defect_free_1303.jpg,defect free,defect free
+defect_free_1307.jpg,defect free,defect free
+defect_free_1308.jpg,defect free,defect free
+defect_free_1314.jpg,defect free,defect free
+defect_free_1318.jpg,defect free,defect free
+defect_free_132.jpg,defect free,defect free
+defect_free_1328.jpg,defect free,defect free
+defect_free_1335.jpg,defect free,defect free
+defect_free_1338.jpg,defect free,defect free
+defect_free_1347.jpg,defect free,defect free
+defect_free_135.jpg,defect free,defect free
+defect_free_1352.jpg,defect free,defect free
+defect_free_1355.jpg,defect free,defect free
+defect_free_1358.jpg,defect free,defect free
+defect_free_1361.jpg,defect free,defect free
+defect_free_1368.jpg,defect free,defect free
+defect_free_1369.jpg,defect free,defect free
+defect_free_1370.jpg,defect free,defect free
+defect_free_1372.jpg,defect free,defect free
+defect_free_1374.jpg,defect free,defect free
+defect_free_1377.jpg,defect free,defect free
+defect_free_1399.jpg,defect free,defect free
+defect_free_140.jpg,defect free,defect free
+defect_free_1402.jpg,defect free,defect free
+defect_free_1403.jpg,defect free,defect free
+defect_free_1406.jpg,defect free,defect free
+defect_free_1428.jpg,defect free,defect free
+defect_free_1440.jpg,defect free,defect free
+defect_free_1456.jpg,defect free,defect free
+defect_free_1461.jpg,defect free,defect free
+defect_free_1465.jpg,defect free,defect free
+defect_free_1481.jpg,defect free,defect free
+defect_free_149.jpg,defect free,defect free
+defect_free_1493.jpg,defect free,defect free
+defect_free_1512.jpg,defect free,defect free
+defect_free_1524.jpg,defect free,defect free
+defect_free_1539.jpg,defect free,defect free
+defect_free_1540.jpg,defect free,defect free
+defect_free_1542.jpg,defect free,defect free
+defect_free_1569.jpg,defect free,defect free
+defect_free_1583.jpg,defect free,defect free
+defect_free_1585.jpg,defect free,defect free
+defect_free_1604.jpg,defect free,defect free
+defect_free_1605.jpg,defect free,defect free
+defect_free_1615.jpg,defect free,defect free
+defect_free_162.jpg,defect free,defect free
+defect_free_1626.jpg,defect free,defect free
+defect_free_1636.jpg,defect free,defect free
+defect_free_1646.jpg,defect free,defect free
+defect_free_1652.jpg,defect free,defect free
+defect_free_1656.jpg,defect free,defect free
+defect_free_1659.jpg,defect free,defect free
+defect_free_1660.jpg,defect free,defect free
+defect_free_1666.jpg,defect free,defect free
+defect_free_167.jpg,defect free,defect free
+defect_free_175.jpg,defect free,defect free
+defect_free_198.jpg,defect free,defect free
+defect_free_200.jpg,defect free,defect free
+defect_free_201.jpg,defect free,defect free
+defect_free_211.jpg,defect free,defect free
+defect_free_216.jpg,defect free,defect free
+defect_free_224.jpg,defect free,defect free
+defect_free_231.jpg,defect free,defect free
+defect_free_241.jpg,defect free,defect free
+defect_free_252.jpg,defect free,defect free
+defect_free_258.jpg,defect free,defect free
+defect_free_263.jpg,defect free,defect free
+defect_free_265.jpg,defect free,defect free
+defect_free_273.jpg,defect free,defect free
+defect_free_281.jpg,defect free,defect free
+defect_free_290.jpg,defect free,defect free
+defect_free_292.jpg,defect free,defect free
+defect_free_302.jpg,defect free,defect free
+defect_free_307.jpg,defect free,defect free
+defect_free_310.jpg,defect free,defect free
+defect_free_319.jpg,defect free,defect free
+defect_free_328.jpg,defect free,defect free
+defect_free_329.jpg,defect free,defect free
+defect_free_330.jpg,defect free,defect free
+defect_free_334.jpg,defect free,defect free
+defect_free_344.jpg,defect free,defect free
+defect_free_359.jpg,defect free,defect free
+defect_free_363.jpg,defect free,defect free
+defect_free_373.jpg,defect free,defect free
+defect_free_374.jpg,defect free,defect free
+defect_free_377.jpg,defect free,defect free
+defect_free_386.jpg,defect free,defect free
+defect_free_393.jpg,defect free,defect free
+defect_free_414.jpg,defect free,defect free
+defect_free_417.jpg,defect free,defect free
+defect_free_420.jpg,defect free,defect free
+defect_free_421.jpg,defect free,defect free
+defect_free_424.jpg,defect free,defect free
+defect_free_432.jpg,defect free,defect free
+defect_free_433.jpg,defect free,defect free
+defect_free_437.jpg,defect free,defect free
+defect_free_438.jpg,defect free,defect free
+defect_free_441.jpg,defect free,defect free
+defect_free_444.jpg,defect free,defect free
+defect_free_459.jpg,defect free,defect free
+defect_free_461.jpg,defect free,defect free
+defect_free_467.jpg,defect free,defect free
+defect_free_468.jpg,defect free,defect free
+defect_free_472.jpg,defect free,defect free
+defect_free_483.jpg,defect free,defect free
+defect_free_495.jpg,defect free,defect free
+defect_free_500.jpg,defect free,defect free
+defect_free_503.jpg,defect free,defect free
+defect_free_514.jpg,defect free,defect free
+defect_free_519.jpg,defect free,defect free
+defect_free_520.jpg,defect free,defect free
+defect_free_529.jpg,defect free,defect free
+defect_free_530.jpg,defect free,defect free
+defect_free_531.jpg,defect free,defect free
+defect_free_538.jpg,defect free,defect free
+defect_free_539.jpg,defect free,defect free
+defect_free_551.jpg,defect free,defect free
+defect_free_552.jpg,defect free,defect free
+defect_free_554.jpg,defect free,defect free
+defect_free_555.jpg,defect free,defect free
+defect_free_560.jpg,defect free,defect free
+defect_free_576.jpg,defect free,defect free
+defect_free_581.jpg,defect free,defect free
+defect_free_602.jpg,defect free,defect free
+defect_free_614.jpg,defect free,defect free
+defect_free_619.jpg,defect free,defect free
+defect_free_626.jpg,defect free,defect free
+defect_free_642.jpg,defect free,defect free
+defect_free_646.jpg,defect free,defect free
+defect_free_650.jpg,defect free,defect free
+defect_free_657.jpg,defect free,defect free
+defect_free_664.jpg,defect free,defect free
+defect_free_669.jpg,defect free,defect free
+defect_free_672.jpg,defect free,defect free
+defect_free_683.jpg,defect free,defect free
+defect_free_685.jpg,defect free,defect free
+defect_free_689.jpg,defect free,defect free
+defect_free_704.jpg,defect free,defect free
+defect_free_709.jpg,defect free,defect free
+defect_free_713.jpg,defect free,defect free
+defect_free_716.jpg,defect free,defect free
+defect_free_727.jpg,defect free,defect free
+defect_free_730.jpg,defect free,defect free
+defect_free_746.jpg,defect free,defect free
+defect_free_760.jpg,defect free,defect free
+defect_free_783.jpg,defect free,defect free
+defect_free_794.jpg,defect free,defect free
+defect_free_807.jpg,defect free,defect free
+defect_free_810.jpg,defect free,defect free
+defect_free_812.jpg,defect free,defect free
+defect_free_815.jpg,defect free,defect free
+defect_free_826.jpg,defect free,defect free
+defect_free_827.jpg,defect free,defect free
+defect_free_828.jpg,defect free,defect free
+defect_free_832.jpg,defect free,defect free
+defect_free_841.jpg,defect free,defect free
+defect_free_845.jpg,defect free,defect free
+defect_free_852.jpg,defect free,defect free
+defect_free_854.jpg,defect free,defect free
+defect_free_859.jpg,defect free,defect free
+defect_free_862.jpg,defect free,defect free
+defect_free_863.jpg,defect free,defect free
+defect_free_865.jpg,defect free,defect free
+defect_free_871.jpg,defect free,defect free
+defect_free_880.jpg,defect free,defect free
+defect_free_881.jpg,defect free,defect free
+defect_free_891.jpg,defect free,defect free
+defect_free_893.jpg,defect free,defect free
+defect_free_894.jpg,defect free,defect free
+defect_free_895.jpg,defect free,defect free
+defect_free_902.jpg,defect free,defect free
+defect_free_905.jpg,defect free,defect free
+defect_free_908.jpg,defect free,defect free
+defect_free_924.jpg,defect free,defect free
+defect_free_936.jpg,defect free,defect free
+defect_free_956.jpg,defect free,defect free
+defect_free_969.jpg,defect free,defect free
+defect_free_970.jpg,defect free,defect free
+defect_free_974.jpg,defect free,defect free
+defect_free_984.jpg,defect free,defect free
+defect_free_995.jpg,defect free,defect free
+hole_010.jpg,hole,hole
+hole_012.jpg,hole,hole
+hole_020.jpg,hole,hole
+hole_026.jpg,hole,hole
+hole_034.jpg,hole,hole
+hole_036.jpg,hole,hole
+hole_040.jpg,hole,hole
+hole_042.jpg,hole,hole
+hole_043.jpg,hole,hole
+hole_047.jpg,hole,hole
+hole_050.jpg,hole,hole
+hole_055.jpg,hole,lines
+hole_058.jpg,hole,hole
+hole_076.jpg,hole,hole
+hole_080.jpg,hole,hole
+hole_087.jpg,hole,hole
+hole_088.jpg,hole,hole
+hole_094.jpg,hole,hole
+hole_097.jpg,hole,hole
+hole_106.jpg,hole,horizontal
+hole_113.jpg,hole,horizontal
+hole_125.jpg,hole,hole
+hole_130.jpg,hole,hole
+hole_135.jpg,hole,hole
+hole_139.jpg,hole,hole
+hole_153.jpg,hole,hole
+hole_159.jpg,hole,hole
+hole_160.jpg,hole,hole
+hole_170.jpg,hole,hole
+hole_191.jpg,hole,hole
+hole_199.jpg,hole,hole
+horizontal_010.jpg,horizontal,horizontal
+horizontal_013.jpg,horizontal,horizontal
+horizontal_016.jpg,horizontal,horizontal
+horizontal_024.jpg,horizontal,horizontal
+horizontal_044.jpg,horizontal,horizontal
+horizontal_048.jpg,horizontal,horizontal
+horizontal_049.jpg,horizontal,horizontal
+horizontal_050.jpg,horizontal,horizontal
+horizontal_052.jpg,horizontal,horizontal
+horizontal_056.jpg,horizontal,horizontal
+horizontal_057.jpg,horizontal,horizontal
+horizontal_065.jpg,horizontal,horizontal
+horizontal_070.jpg,horizontal,horizontal
+horizontal_074.jpg,horizontal,horizontal
+horizontal_085.jpg,horizontal,horizontal
+horizontal_092.jpg,horizontal,horizontal
+horizontal_096.jpg,horizontal,horizontal
+horizontal_103.jpg,horizontal,horizontal
+horizontal_114.jpg,horizontal,horizontal
+horizontal_115.jpg,horizontal,horizontal
+horizontal_122.jpg,horizontal,horizontal
+lines_017.jpg,lines,lines
+lines_019.jpg,lines,lines
+lines_023.jpg,lines,horizontal
+lines_033.jpg,lines,lines
+lines_034.jpg,lines,lines
+lines_047.jpg,lines,lines
+lines_080.jpg,lines,lines
+lines_082.jpg,lines,lines
+lines_089.jpg,lines,lines
+lines_093.jpg,lines,lines
+lines_095.jpg,lines,lines
+lines_102.jpg,lines,lines
+lines_105.jpg,lines,lines
+lines_106.jpg,lines,lines
+lines_116.jpg,lines,lines
+lines_120.jpg,lines,lines
+lines_123.jpg,lines,lines
+lines_133.jpg,lines,lines
+lines_135.jpg,lines,lines
+lines_141.jpg,lines,lines
+lines_142.jpg,lines,lines
+lines_147.jpg,lines,lines
+lines_152.jpg,lines,lines
+lines_153.jpg,lines,lines
+lines_156.jpg,lines,lines
+needle_mark_002.jpg,needle mark,needle mark
+needle_mark_006.jpg,needle mark,needle mark
+needle_mark_014.jpg,needle mark,needle mark
+needle_mark_018.jpg,needle mark,needle mark
+needle_mark_034.jpg,needle mark,needle mark
+needle_mark_037.jpg,needle mark,needle mark
+needle_mark_047.jpg,needle mark,needle mark
+needle_mark_052.jpg,needle mark,needle mark
+needle_mark_056.jpg,needle mark,needle mark
+needle_mark_061.jpg,needle mark,needle mark
+needle_mark_069.jpg,needle mark,needle mark
+needle_mark_077.jpg,needle mark,needle mark
+needle_mark_084.jpg,needle mark,needle mark
+needle_mark_087.jpg,needle mark,needle mark
+needle_mark_094.jpg,needle mark,needle mark
+needle_mark_095.jpg,needle mark,needle mark
+needle_mark_096.jpg,needle mark,needle mark
+pinched_fabric_008.jpg,pinched fabric,pinched fabric
+pinched_fabric_018.jpg,pinched fabric,pinched fabric
+pinched_fabric_020.jpg,pinched fabric,pinched fabric
+pinched_fabric_027.jpg,pinched fabric,pinched fabric
+pinched_fabric_041.jpg,pinched fabric,pinched fabric
+pinched_fabric_053.jpg,pinched fabric,pinched fabric
+pinched_fabric_054.jpg,pinched fabric,pinched fabric
+pinched_fabric_061.jpg,pinched fabric,pinched fabric
+pinched_fabric_065.jpg,pinched fabric,pinched fabric
+pinched_fabric_067.jpg,pinched fabric,pinched fabric
+pinched_fabric_079.jpg,pinched fabric,pinched fabric
+pinched_fabric_089.jpg,pinched fabric,pinched fabric
+pinched_fabric_091.jpg,pinched fabric,pinched fabric
+pinched_fabric_094.jpg,pinched fabric,pinched fabric
+pinched_fabric_095.jpg,pinched fabric,pinched fabric
+pinched_fabric_100.jpg,pinched fabric,pinched fabric
+pinched_fabric_105.jpg,pinched fabric,pinched fabric
+stain_004.jpg,stain,stain
+stain_005.jpg,stain,stain
+stain_008.jpg,stain,stain
+stain_019.jpg,stain,stain
+stain_020.jpg,stain,stain
+stain_045.jpg,stain,stain
+stain_049.jpg,stain,stain
+stain_055.jpg,stain,stain
+stain_058.jpg,stain,stain
+stain_069.jpg,stain,stain
+stain_072.jpg,stain,stain
+stain_084.jpg,stain,stain
+stain_090.jpg,stain,stain
+stain_091.jpg,stain,stain
+stain_095.jpg,stain,stain
+stain_096.jpg,stain,stain
+stain_099.jpg,stain,stain
+stain_128.jpg,stain,stain
+stain_132.jpg,stain,stain
+stain_140.jpg,stain,stain
+stain_146.jpg,stain,stain
+stain_149.jpg,stain,stain
+stain_152.jpg,stain,stain
+stain_153.jpg,stain,stain
+stain_166.jpg,stain,stain
+stain_168.jpg,stain,stain
+stain_170.jpg,stain,stain
+stain_172.jpg,stain,stain
+stain_173.jpg,stain,stain
+stain_204.jpg,stain,stain
+stain_206.jpg,stain,stain
+stain_208.jpg,stain,stain
+stain_214.jpg,stain,stain
+stain_219.jpg,stain,stain
+stain_233.jpg,stain,stain
+stain_235.jpg,stain,stain
+stain_240.jpg,stain,stain
+stain_245.jpg,stain,stain
+stain_253.jpg,stain,stain
+stain_254.jpg,stain,stain
+stain_259.jpg,stain,stain
+stain_264.jpg,stain,stain
+stain_269.jpg,stain,stain
+stain_274.jpg,stain,stain
+stain_279.jpg,stain,stain
+stain_291.jpg,stain,stain
+stain_309.jpg,stain,stain
+stain_313.jpg,stain,stain
+stain_328.jpg,stain,stain
+stain_329.jpg,stain,stain
+stain_332.jpg,stain,stain
+stain_343.jpg,stain,stain
+stain_346.jpg,stain,stain
+stain_368.jpg,stain,stain
+stain_371.jpg,stain,stain
+stain_379.jpg,stain,stain
+stain_382.jpg,stain,stain
+stain_384.jpg,stain,stain
+stain_388.jpg,stain,stain
+stain_394.jpg,stain,stain
+stain_395.jpg,stain,stain
+vertical_001.jpg,vertical,horizontal
+vertical_002.jpg,vertical,vertical
+vertical_003.jpg,vertical,vertical
+vertical_053.jpg,vertical,vertical
+vertical_062.jpg,vertical,vertical
+vertical_063.jpg,vertical,vertical
+vertical_068.jpg,vertical,vertical
+vertical_069.jpg,vertical,vertical
+vertical_071.jpg,vertical,vertical
+vertical_079.jpg,vertical,vertical
+vertical_080.jpg,vertical,vertical
+vertical_083.jpg,vertical,vertical
+vertical_090.jpg,vertical,vertical
+vertical_091.jpg,vertical,vertical
+vertical_094.jpg,vertical,vertical
