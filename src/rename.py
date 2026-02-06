@@ -27,7 +27,7 @@ for class_name in os.listdir(BASE_DIR):
         try:
             img = Image.open(old_path).convert("RGB")
             img.save(new_path, "JPEG")
-            # os.remove(old_path)  # Uncomment to delete original files
+
         except Exception as e:
             print(f"❌ Failed to process {fname}: {e}")
 
